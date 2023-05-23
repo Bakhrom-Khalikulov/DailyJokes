@@ -67,41 +67,35 @@ a{
 }
 
 /* JOKES SECTION STYLE STARTS */
-.jokes-section{
+.home-title{
+    width: 100%;
+    max-width: 400px;
     margin-top: 150px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.main-page-link{
-    color: #9A9AF0;
-    font-size: larger;
-}
-
-.jokes-title{
-    color: var(--text-color);
-    font-weight: 600;
-}
-
-.jokes-desc{
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
     margin-right: auto;
     margin-left: auto;
-    width: 450px;
-    height: 300px;
-    font-weight: 500;
+    margin-bottom: 20px;
     text-align: center;
-    background-color: var(--main-bg-color);
-    color: var(--text-color);
-    border-radius: 5%;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #373563;
 }
 
-.btn-next{
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jk-btn{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.jokes-sections{
+    display: inline-block;
     margin-top: 20px;
     padding-top: 10px;
     padding-right: 10px;
@@ -110,8 +104,7 @@ a{
     font-size: larger;
     color: #fff;
     background: #FF5F68;
-    border-radius: 42px;
+    border-radius: 42px; 
 }
-
 
 /* JOKES SECTION STYLE ENDS */
